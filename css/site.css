@@ -1814,6 +1814,7 @@ url('/wp-content/uploads/2021/06/27-1.png'), url('/wp-content/uploads/2021/05/17
 	.how-it-works-workflow {
 		display: grid;
 		transform: none;
+		min-height: 1000px;
 		height: calc(var(--mobile-scale) * 1780);
 	}
 
@@ -2385,6 +2386,13 @@ url('/wp-content/uploads/2021/06/27-1.png'), url('/wp-content/uploads/2021/05/17
 	line-height: 0.1;
 }
 
+.price-plan-vat-message {
+	font-size: 12px;
+	margin-right: 35px;
+}
+.price-plan-vat-message::before {
+	content: '' !important
+}
 .talkon-price-plan .wp-block-buttons > .wp-block-button {
 	background-color: #1ebdc6;
 	margin: auto;
@@ -2414,7 +2422,7 @@ url('/wp-content/uploads/2021/06/27-1.png'), url('/wp-content/uploads/2021/05/17
 }
 
 .talkon-price-plan.talkon-price-plan-basic .wp-block-buttons {
-	margin-bottom: 30px !important;
+	margin-top: 15px !important;
 }
 
 .talkon-price-plan.talkon-price-plan-group .wp-block-buttons {
@@ -2560,6 +2568,13 @@ line-height: 30px;
     font-size: calc(var(--mobile-scale) * 28) !important;
 	}
 
+	.talkon-price-plan.talkon-price-plan-basic > .wp-block-columns:nth-child(2) > .wp-block-column:last-child > p, .talkon-price-plan.talkon-price-plan-group > .wp-block-columns:nth-child(2) > .wp-block-column:last-child > p.price-plan-vat-message {
+    font-size: calc(var(--mobile-scale) * 22) !important;
+		color: grey;
+		margin-right: 0;
+		text-align: center;
+	}
+
 	.talkon-price-plan.talkon-price-plan-group > .wp-block-columns:nth-child(2) > .wp-block-column:first-child .wp-block-columns {
     margin-top: calc(var(--mobile-scale) * 30) !important;
     position: relative;
@@ -2626,7 +2641,7 @@ line-height: 30px;
 	.pricing-bottom-paragraph {
 		font-size: calc(var(--mobile-scale) * 28) !important;
 	}
-	
+
 }
 
 
