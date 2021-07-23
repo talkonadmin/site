@@ -280,12 +280,15 @@ textarea {
 	padding-right: 21px !important;
   padding-left: 21px !important;
 	color: #322a4f;
-	text-decoration-color: #322a4f;
+	text-decoration-color: #322a4f !important;
 }
 
 .primary-navigation .primary-menu-container > ul > .menu-item > a:active,
 .primary-navigation .primary-menu-container > ul > .menu-item > a:focus {
 	color: #483e6c !important;
+	outline: none !important;
+  border: none !important;
+	box-shadow: none;
 }
 
 .site {
@@ -521,7 +524,7 @@ url('/wp-content/uploads/2021/06/27-1.png'), url('/wp-content/uploads/2021/05/17
 }
 
 .work-start-buttons .wp-block-button:last-child {
-	margin-right: 10px !important;
+	margin-right: 0px !important;
 	margin-left: 0px !important;
 }
 
@@ -776,7 +779,7 @@ url('/wp-content/uploads/2021/06/27-1.png'), url('/wp-content/uploads/2021/05/17
 }
 
 .home-paragraph-title {
-	font-family: 'Rubik' sans-serif !important;
+	font-family: 'Rubik' !important;
 	font-size: 72px;
 }
 
@@ -1482,7 +1485,7 @@ url('/wp-content/uploads/2021/06/27-1.png'), url('/wp-content/uploads/2021/05/17
 	background-image: url('/wp-content/uploads/2021/06/group-98_14.png'), url('/wp-content/uploads/2021/06/rectangle-1270_2.png');
 	background-position: 88% 30px, center;
 	background-repeat: no-repeat;
-	padding-top: 119px;
+	padding-top: 146px;
 	padding-bottom: 51px;
 	padding-right: 29px;
 	margin-left: 67px;
@@ -1496,7 +1499,7 @@ url('/wp-content/uploads/2021/06/27-1.png'), url('/wp-content/uploads/2021/05/17
 	background-image: url('/wp-content/uploads/2021/06/group-98_13.png'), url('/wp-content/uploads/2021/06/rectangle-1270.png');
 	background-position:  88% 30px,center;
 	background-repeat: no-repeat;
-	padding-top: 117px;
+	padding-top: 206px;
 	padding-bottom: 33px;
 	padding-right: 29px;
 	padding-left: 50px;
@@ -1511,7 +1514,7 @@ url('/wp-content/uploads/2021/06/27-1.png'), url('/wp-content/uploads/2021/05/17
 	background-image: url('/wp-content/uploads/2021/06/group-98_12.png'), url('/wp-content/uploads/2021/06/rectangle-1270_2.png');
 	background-position: 88% 30px, center;
 	background-repeat: no-repeat;
-	padding-top: 119px;
+	padding-top: 146px;
 	padding-bottom: 51px;
 	padding-right: 29px;
 	margin-left: 67px;
@@ -1523,10 +1526,10 @@ url('/wp-content/uploads/2021/06/27-1.png'), url('/wp-content/uploads/2021/05/17
 
 .how-it-works-boxs > .wp-block-columns > .wp-block-column:last-child > p:last-child {
 	background-image: url('/wp-content/uploads/2021/06/group-98_11.png'), url('/wp-content/uploads/2021/06/rectangle-1270_2.png');
-	background-position: 88% 30px, center;
+	background-position: 88% 43px, center;
 	background-repeat: no-repeat;
-	padding-top: 119px;
-	padding-bottom: 51px;
+	padding-top: 158px;
+	padding-bottom: 53px;
 	padding-right: 29px;
 	padding-left: 29px;
 	margin-left: 67px;
@@ -2806,7 +2809,7 @@ line-height: 30px;
 }
 
 .about-start-buttons .wp-block-button:last-child {
-	margin-right: 13px !important;
+	margin-right: 0px !important;
 	margin-left: 0px !important;
 }
 
