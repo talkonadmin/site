@@ -223,8 +223,8 @@ textarea {
 		background-color: #322A4F;
 		flex-direction: column-reverse;
 		padding-top:  calc(var(--mobile-scale) * 20);
-		padding-left:  calc(var(--mobile-scale) * 49);
-		padding-right:  calc(var(--mobile-scale) * 55);
+		padding-left:  calc(var(--mobile-scale) * 30);
+		padding-right:  calc(var(--mobile-scale) * 30);
 		padding-bottom:  calc(var(--mobile-scale) * 138);
 	}
 	
